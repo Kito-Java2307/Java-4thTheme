@@ -5,11 +5,11 @@ public class Main {
     public static void main(String[] args) {
         // Streamを利用してみる
 
-        Hunter gon = new Hunter("Gon Freecss", 12);
-        Hunter killua = new Hunter("Killua Zoldyck", 12);
+        Hunter gonn = new Hunter("Gonn", 12);
+        Hunter kirua = new Hunter("Kirua", 12);
         Hunter kurapika = new Hunter("Kurapika", 18);
-        Hunter leorio = new Hunter("Leorio Paradinight", 20);
-        List<Hunter> hunters = List.of(gon, killua, kurapika, leorio);
+        Hunter reorio = new Hunter("Reorio", 20);
+        List<Hunter> hunters = List.of(gonn, kirua, kurapika, reorio);
 
         // 既存List表示
         System.out.println("＜既存List＞");
